@@ -116,4 +116,4 @@ async def execute_scraper():
         data = read()
         
         for task in data:
-            logger.debug(f"[{task['date']}]\n {task['course_name']}\n {task['activity_name']}\n\n")
+            logger.debug(f"[{task['date']}]\n {task['course_name']}\n {task['activity_name']}")
