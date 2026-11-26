@@ -163,3 +163,9 @@ O que motiva essa necessidade? O Git precisa saber **quem** está enviando o có
 $ git config --global user.name "Seu Nome e Sobrenome"
 $ git config --global user.email "seu.email@exemplo.com"
 ```
+
+**3. Autorizar a execução de scripts no terminal:**
+```powershell
+$ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+$ .\setup.ps1
+```
